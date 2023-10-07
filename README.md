@@ -1,7 +1,9 @@
 # web3py-notebooks
 
-This repository contains a collection of examples demonstrating how to interact with Ethereum using the Web3.py library. 
-Each example provides a concise code snippet along with a brief explanation to help you get started with Ethereum development.
+This repository contains examples demonstrating how to interact with Ethereum using the Web3.py library. 
+The notebooks will provide small coded cells as well as larger cells with a brief explanation to help you get started with Ethereum development.
+
+*TODO*: examine the notebooks for perhaps a more usable organization 
 
 ## Table of Contents
 
@@ -9,10 +11,13 @@ Each example provides a concise code snippet along with a brief explanation to h
 - [Installation](#installation)
 - [Quickstart](#quickstart)
 - [Examples](#examples)
-  - [1. Get Account Balance](#1-get-account-balance)
-  - [2. Send Ether](#2-send-ether)
-  - [3. Interact with Smart Contracts](#3-interact-with-smart-contracts)
-  - [4. Retrieve Transaction Details](#4-retrieve-transaction-details)
+  - [1. Looking up Blocks](#1-looking-up-blocks)
+  - [2. Retrieve Block Info](#2-retrieve-block-info)
+  - [3. Check the balance of an account](#3-check-the-balance-of-an-account)
+  - [4. Currency Conversion](#4-currency-conversion)
+  - [5. Sending Transactions](#5-sending-transactions)
+  - [6. Retrieving Receipts](#6-retrieving-receipts)
+  - [7. Deploying New Contracts](#7-deploying-new-contracts)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -44,21 +49,31 @@ Connections to Providers and Block Info from geth
 
 ## Examples
 
-### 1. Get Account Balance
+### 1. Looking up Blocks
+Example code to find a block.
 
-Example code to retrieve the balance of an Ethereum account.
+### 2. Retrieve block info
+Get the latest block and extract various details.
 
-### 2. Send Ether
+### 3. Check the balance of an account
+Find the amount of ether owned by an account
 
-Example code to send Ether from one account to another.
+### 4. Currency Conversion
+Convert to and from various currency denominations
 
-### 3. Interact with Smart Contracts
+### 5. Sending Transactions
+Use eth-tester (via EthereumTesterProvider) to send transactions
 
-Example code demonstrating how to interact with smart contracts using Web3.py.
+### 6. Retrieving Receipts
+Retrieve details after a transaction was send.
 
-### 4. Retrieve Transaction Details
+### 7. Deploying New Contracts
+Compile and deploy a simple contract
+* Compiles the contract from the .sol file.
+* Estimates gas costs of the transaction.
+* Transacts with the contract's function.
+* Waits for the transaction receipt to be mined
 
-Example code to retrieve detailed information about a specific Ethereum transaction.
 
 ## Contributing
 
