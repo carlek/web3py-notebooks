@@ -37,9 +37,11 @@ Before running the examples, make sure you have the following prerequisites inst
    git clone https://github.com/your_username/web3py-notebooks.git
    ```
 
-2. Install the required Python packages:
+2. Create .venv and install Python packages:
 
    ```bash
+   python -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
    ```
 
