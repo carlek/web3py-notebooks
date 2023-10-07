@@ -7,7 +7,8 @@ Each example provides a concise code snippet along with a brief explanation to h
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Examples](##examples)
+- [Quickstart](#quickstart)
+- [Examples](#examples)
   - [1. Get Account Balance](#1-get-account-balance)
   - [2. Send Ether](#2-send-ether)
   - [3. Interact with Smart Contracts](#3-interact-with-smart-contracts)
@@ -21,6 +22,7 @@ Before running the examples, make sure you have the following prerequisites inst
 
 - Python 3.x
 - Web3.py library
+- geth
 
 ## Installation
 
@@ -35,6 +37,10 @@ Before running the examples, make sure you have the following prerequisites inst
    ```bash
    pip install -r requirements.txt
    ```
+
+## Quickstart
+
+Connections to Providers and Block Info from geth
 
 ## Examples
 
