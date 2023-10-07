@@ -1,6 +1,6 @@
 # web3py-notebooks
 
-This repository contains examples demonstrating how to interact with Ethereum using the Web3.py library. 
+This repository contains examples based on the [documentation](https://web3py.readthedocs.io/) to interact with Ethereum using the Web3.py library. 
 The notebooks will provide small coded cells as well as larger cells with a brief explanation to help you get started with Ethereum development.
 
 *TODO*: examine the notebooks for perhaps a more usable organization 
