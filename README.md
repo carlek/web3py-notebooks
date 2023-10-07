@@ -3,7 +3,9 @@
 This repository contains examples based on the [documentation](https://web3py.readthedocs.io/) to interact with Ethereum using the Web3.py library. 
 The notebooks will provide small coded cells as well as larger cells with a brief explanation to help you get started with Ethereum development.
 
-*TODO*: examine the notebooks for perhaps a more usable organization 
+*TODO*:
+1. add some setup for Infura and Geth.
+1. examine the notebooks for perhaps a more usable organization 
 
 ## Table of Contents
 
@@ -44,6 +46,10 @@ Before running the examples, make sure you have the following prerequisites inst
    source .venv/bin/activate
    pip install -r requirements.txt
    ```
+3. Create a `.env` file containing your Infura Project ID (API)
+```
+INFURA_PROJECT_ID=<your API key>
+```
 
 ## Quickstart
 
