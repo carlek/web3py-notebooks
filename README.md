@@ -28,7 +28,7 @@ These notebooks are a cookbook of small entrees of code as well as large recipes
 Before running the examples, make sure you have the following prerequisites installed:
 
 - Python 3.x
-- Web3.py library
+- Infura Project ID (API key)
 - geth
 
 ## Installation
@@ -46,7 +46,7 @@ Before running the examples, make sure you have the following prerequisites inst
    source .venv/bin/activate
    pip install -r requirements.txt
    ```
-3. Create a `.env` file containing your Infura Project ID (API)
+3. Create a `.env` file containing your Infura Project ID (API key)
 ```
 INFURA_PROJECT_ID=<your API key>
 ```
