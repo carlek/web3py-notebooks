@@ -1,7 +1,7 @@
 # web3py-notebooks
 
 This repository contains examples based on the [documentation](https://web3py.readthedocs.io/) to interact with Ethereum using the Web3.py library. 
-The notebooks will provide small coded cells as well as larger cells with a brief explanation to help you get started with Ethereum development.
+These notebooks are a cookbook of small entrees of code as well as large recipes with brief explanations.  The goal is a better experience with the documentation for someome to get started with Ethereum development.
 
 *TODO*:
 1. add some setup for Infura and Geth.
@@ -12,7 +12,7 @@ The notebooks will provide small coded cells as well as larger cells with a brie
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Quickstart](#quickstart)
-- [Examples](#examples)
+- [Examples Primo](#examples-primo)
   - [1. Looking up Blocks](#1-looking-up-blocks)
   - [2. Retrieve Block Info](#2-retrieve-block-info)
   - [3. Check the balance of an account](#3-check-the-balance-of-an-account)
@@ -55,7 +55,7 @@ INFURA_PROJECT_ID=<your API key>
 
 Connections to Providers and Block Info from geth
 
-## Examples
+## Examples Primo
 
 ### 1. Looking up Blocks
 Example code to find a block.
