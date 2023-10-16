@@ -5,7 +5,8 @@ These notebooks are a cookbook of small entrees of code as well as large recipes
 
 *TODO*:
 1. add some setup for Infura and Geth.
-1. examine the notebooks for perhaps a more usable organization 
+1. examine the notebooks for perhaps a more usable organization
+1. port the other examples as "Secondo"
 
 ## Table of Contents
 
